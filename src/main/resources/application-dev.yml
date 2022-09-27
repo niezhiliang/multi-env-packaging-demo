@@ -1,0 +1,13 @@
+nacos:
+  config:
+    # 占位符自动读取env.properties中的配置
+    server-addr: ${serverAddr}
+    access-key: ${accessKey}
+    secret-key: ${secretKey}
+    auto-refresh: true
+    namespace: ${namespace}
+    endpoint: ${endpoint}
+    bootstrap:
+      enable: true
+
+
